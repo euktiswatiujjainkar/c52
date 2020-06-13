@@ -1,0 +1,63 @@
+
+
+        h1{
+        background-image:url("download.jpg");
+       }
+       
+        .header {
+           background-image:url("download.jpg");
+           display:flex;
+           justify-content : space-between; 
+           
+           
+        }
+        .description *{
+                background-color:#52f3f3;
+                display:flex;
+                border:solid;
+                justify-content : space-evenly; 
+                flex-grow: inherit; 
+             }
+             .grid *{
+                background-color:#E0B0FF;
+                display:flex;
+                border:solid;
+                justify-content : space-evenly;
+                flex-flow: wrap-reverse;     
+             }
+             .act *{
+                background-color:rgb(70, 209, 255);
+                display:flex;
+                border:solid;
+                justify-content : space-between;     
+             }
+          
+           .header *{
+              border:solid;
+              margin-left: 30px;
+              padding-right: 50px;
+              padding-left: 50px;
+            }
+            a:link{
+                        color:red;
+               }
+               a:visited{
+                  color:red;
+            }
+            .header {
+               position:relative;
+            }
+              .header p{
+                 position:absolute;
+                 top:50%;
+                 left:50%;
+                 transform:translate(-50%,-50%);
+               opacity: 0; 
+                 
+              }
+              .header:hover p{
+                 opacity:1
+              }
+              .header:hover background img{
+                 opacity: 0.33;
+              }
